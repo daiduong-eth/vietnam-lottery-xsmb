@@ -1,0 +1,33 @@
+# Personal Claude Code overrides
+*.local.*
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Crawler intermediate
+data/raw/
+data/checkpoint.json
+
+# Derived SQLite — rebuild via `uv run xsmb build-db`
+data/xsmb.sqlite

@@ -1,0 +1,53 @@
+[project]
+name = "xsmb"
+version = "0.1.0"
+description = "Northern Vietnam Lottery (XSMB) historical results — crawl, store, analyze"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+authors = [{ name = "Dai Duong", email = "daiduong.eth@gmail.com" }]
+keywords = ["xsmb", "lottery", "vietnam", "dataset"]
+dependencies = [
+    "httpx>=0.28",
+    "selectolax>=0.3.27",
+    "pyarrow>=18.0",
+    "tenacity>=9.0",
+    "click>=8.1",
+]
+
+[project.optional-dependencies]
+notebook = ["pandas>=2.2", "matplotlib>=3.9", "jupyter>=1.1"]
+
+[project.scripts]
+xsmb = "xsmb.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/xsmb"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "pytest-asyncio>=0.24",
+    "ruff>=0.8",
+    "black>=24.10",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "ASYNC"]
+ignore = ["E501"]
+
+[tool.black]
+line-length = 100
+target-version = ["py312"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

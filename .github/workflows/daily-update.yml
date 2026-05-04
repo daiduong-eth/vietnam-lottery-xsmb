@@ -1,0 +1,53 @@
+name: daily-update
+
+on:
+  schedule:
+    - cron: "35 11 * * *"  # 18:35 ICT (UTC+7) — 5 min after the live draw
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          python-version: "3.12"
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Refresh last 7 days
+        run: uv run xsmb update --days 7
+
+      - name: Build SQLite + render README
+        run: |
+          uv run xsmb build-db
+          uv run xsmb render-readme
+
+      - name: Validate dataset
+        run: |
+          uv run python -c "import sqlite3, sys; n = sqlite3.connect('data/xsmb.sqlite').execute('SELECT COUNT(*) FROM draws').fetchone()[0]; print(f'{n} draws'); sys.exit(0 if n > 7000 else 1)"
+
+      - name: Commit & push if anything changed
+        run: |
+          git config user.name  "duongdd"
+          git config user.email "170312353+daiduong-eth@users.noreply.github.com"
+          if git diff --quiet -- data/ README.md; then
+            echo "no changes"
+            exit 0
+          fi
+          today=$(date -u +%Y-%m-%d)
+          git add data/ README.md
+          git commit -m "chore(data): refresh ${today}"
+          git push
