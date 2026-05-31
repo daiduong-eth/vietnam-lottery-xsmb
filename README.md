@@ -127,7 +127,7 @@ Hàng = chữ số hàng chục, cột = đơn vị. Số bên trái là đếm;
 
 ---
 
-_Updated **2026-05-31 09:26 +07** — auto by [GitHub Action](.github/workflows/daily-update.yml)._  
+_Updated **2026-05-31 09:29 +07** — auto by [GitHub Action](.github/workflows/daily-update.yml)._  
 _Dataset: [`data/xsmb.csv`](data/xsmb.csv) · 7,720 kỳ · 2005-01-01 → 2026-05-30._  
 _Code, install, schema: see [`docs/USAGE.md`](docs/USAGE.md). License: [MIT](LICENSE)._  
 _Source data crawled from [Minh Ngọc](https://www.minhngoc.net.vn/ket-qua-xo-so/mien-bac.html)._
