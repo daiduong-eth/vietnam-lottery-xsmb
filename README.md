@@ -1,21 +1,21 @@
 # Xổ Số Miền Bắc — Dashboard
 
-![daily-update](https://github.com/daiduong-eth/vietnam-lottery-xsmb/actions/workflows/daily-update.yml/badge.svg) ![draws](https://img.shields.io/static/v1?label=draws&message=7%2C757&color=blue) ![range](https://img.shields.io/static/v1?label=range&message=2005-01-01+%E2%86%92+2026-07-06&color=green) ![views](https://hits.sh/github.com/daiduong-eth/vietnam-lottery-xsmb.svg?label=views&color=orange) ![license](https://img.shields.io/static/v1?label=license&message=MIT&color=yellow)
+![daily-update](https://github.com/daiduong-eth/vietnam-lottery-xsmb/actions/workflows/daily-update.yml/badge.svg) ![draws](https://img.shields.io/static/v1?label=draws&message=7%2C758&color=blue) ![range](https://img.shields.io/static/v1?label=range&message=2005-01-01+%E2%86%92+2026-07-07&color=green) ![views](https://hits.sh/github.com/daiduong-eth/vietnam-lottery-xsmb.svg?label=views&color=orange) ![license](https://img.shields.io/static/v1?label=license&message=MIT&color=yellow)
 
-**Kết quả mới nhất:** Thứ 2, 06/07/2026 — Đặc biệt **`43497`** (2 số cuối: `97`)
+**Kết quả mới nhất:** Thứ 3, 07/07/2026 — Đặc biệt **`92579`** (2 số cuối: `79`)
 
-## 🎯 Kết quả mới nhất — 06/07/2026
+## 🎯 Kết quả mới nhất — 07/07/2026
 
 | Giải | Số |
 |---|---|
-| Đặc biệt | `43497` |
-| Giải nhất | `95103` |
-| Giải nhì | `29328` `79523` |
-| Giải ba | `68679` `66934` `67183` `82777` `47332` `71370` |
-| Giải tư | `7755` `7395` `7104` `2429` |
-| Giải năm | `4686` `6183` `1236` `1832` `1799` `1915` |
-| Giải sáu | `671` `856` `356` |
-| Giải bảy | `30` `55` `89` `20` |
+| Đặc biệt | `92579` |
+| Giải nhất | `90726` |
+| Giải nhì | `49846` `84937` |
+| Giải ba | `30193` `70011` `72314` `45411` `02081` `47854` |
+| Giải tư | `8918` `4442` `1106` `4996` |
+| Giải năm | `7713` `3696` `0247` `9389` `6262` `7366` |
+| Giải sáu | `224` `421` `186` |
+| Giải bảy | `80` `62` `54` `81` |
 
 ## 📅 10 kỳ gần nhất
 
@@ -23,6 +23,7 @@ C = Chẵn, L (cột C/L) = Lẻ; L (cột L/B) = Lớn (≥5), B = Bé (<5).
 
 | Ngày | Đặc biệt | 2 số cuối | Tổng | Chục C/L | ĐV C/L | Chục L/B | ĐV L/B |
 |---|---|---|---|---|---|---|---|
+| 07/07/2026 (Thứ 3) | `92579` | **79** | 16 | L | L | L | L |
 | 06/07/2026 (Thứ 2) | `43497` | **97** | 16 | L | L | L | L |
 | 05/07/2026 (Chủ nhật) | `66771` | **71** | 8 | L | L | L | B |
 | 04/07/2026 (Thứ 7) | `14887` | **87** | 15 | C | L | L | L |
@@ -32,7 +33,6 @@ C = Chẵn, L (cột C/L) = Lẻ; L (cột L/B) = Lớn (≥5), B = Bé (<5).
 | 30/06/2026 (Thứ 3) | `60468` | **68** | 14 | C | C | L | L |
 | 29/06/2026 (Thứ 2) | `37642` | **42** | 6 | C | C | B | B |
 | 28/06/2026 (Chủ nhật) | `12452` | **52** | 7 | L | C | L | B |
-| 27/06/2026 (Thứ 7) | `09253` | **53** | 8 | L | L | L | B |
 
 ## 🔥 Top số 2 cuối ĐB — nóng / lạnh
 
@@ -43,22 +43,22 @@ Số nóng: ra nhiều nhất trong cửa sổ; số lạnh: ra ít nhất. Form
 | 30 ngày | 30 | `51`(2) `83`(2) `00`(1) `03`(1) `04`(1) | `01`(0) `02`(0) `06`(0) `07`(0) `09`(0) |
 | 90 ngày | 90 | `04`(4) `54`(4) `39`(3) `51`(3) `83`(3) | `01`(0) `02`(0) `06`(0) `07`(0) `09`(0) |
 | 365 ngày | 361 | `68`(8) `92`(8) `21`(7) `36`(7) `54`(7) | `15`(0) `18`(0) `58`(0) `98`(0) `07`(1) |
-| Toàn lịch sử | 7,757 | `36`(105) `70`(100) `65`(97) `39`(96) `24`(93) | `28`(55) `40`(58) `20`(62) `31`(62) `72`(63) |
+| Toàn lịch sử | 7,758 | `36`(105) `70`(100) `65`(97) `39`(96) `24`(93) | `28`(55) `40`(58) `20`(62) `31`(62) `72`(63) |
 
 ## 😴 Lô gan — top 10 lâu chưa về (theo 2 số cuối ĐB)
 
 | # | Số | Lần cuối về (ĐB) | Số ngày gan |
 |---|---|---|---|
-| 1 | **98** | 17/02/2025 | 504 |
-| 2 | **58** | 23/05/2025 | 409 |
-| 3 | **18** | 01/07/2025 | 370 |
-| 4 | **15** | 04/07/2025 | 367 |
-| 5 | **56** | 13/07/2025 | 358 |
-| 6 | **31** | 10/09/2025 | 299 |
-| 7 | **07** | 14/09/2025 | 295 |
-| 8 | **09** | 03/10/2025 | 276 |
-| 9 | **10** | 26/10/2025 | 253 |
-| 10 | **73** | 29/10/2025 | 250 |
+| 1 | **98** | 17/02/2025 | 505 |
+| 2 | **58** | 23/05/2025 | 410 |
+| 3 | **18** | 01/07/2025 | 371 |
+| 4 | **15** | 04/07/2025 | 368 |
+| 5 | **56** | 13/07/2025 | 359 |
+| 6 | **31** | 10/09/2025 | 300 |
+| 7 | **07** | 14/09/2025 | 296 |
+| 8 | **09** | 03/10/2025 | 277 |
+| 9 | **10** | 26/10/2025 | 254 |
+| 10 | **73** | 29/10/2025 | 251 |
 
 ## 🔁 Streak chẵn/lẻ + lớn/bé liên tiếp
 
@@ -67,14 +67,14 @@ Tính trên 2 số cuối Đặc biệt qua toàn bộ lịch sử. **Lớn** = 
 | Loại | Streak hiện tại | Dài nhất | Khoảng dài nhất |
 |---|---|---|---|
 | Đơn vị **chẵn** liên tiếp | — | **13** | 07/11/2019 → 19/11/2019 |
-| Đơn vị **lẻ** liên tiếp | 5 | **10** | 28/07/2013 → 06/08/2013 |
+| Đơn vị **lẻ** liên tiếp | 6 | **10** | 28/07/2013 → 06/08/2013 |
 | Hàng chục **chẵn** liên tiếp | — | **14** | 08/08/2024 → 21/08/2024 |
-| Hàng chục **lẻ** liên tiếp | 2 | **12** | 31/01/2007 → 11/02/2007 |
-| Đơn vị **lớn** (≥5) liên tiếp | 1 | **15** | 15/09/2024 → 29/09/2024 |
+| Hàng chục **lẻ** liên tiếp | 3 | **12** | 31/01/2007 → 11/02/2007 |
+| Đơn vị **lớn** (≥5) liên tiếp | 2 | **15** | 15/09/2024 → 29/09/2024 |
 | Đơn vị **bé** (<5) liên tiếp | — | **11** | 08/01/2023 → 18/01/2023 |
-| Hàng chục **lớn** (≥5) liên tiếp | 4 | **13** | 12/02/2022 → 24/02/2022 |
+| Hàng chục **lớn** (≥5) liên tiếp | 5 | **13** | 12/02/2022 → 24/02/2022 |
 | Hàng chục **bé** (<5) liên tiếp | — | **16** | 02/10/2018 → 17/10/2018 |
-| Tổng (đv+chục) **chẵn** | 2 | **18** | 08/07/2023 → 25/07/2023 |
+| Tổng (đv+chục) **chẵn** | 3 | **18** | 08/07/2023 → 25/07/2023 |
 | Tổng (đv+chục) **lẻ** | — | **12** | 21/06/2017 → 02/07/2017 |
 | Số **kép** (đv = chục, VD 22, 88) | — | **3** | 18/02/2006 → 20/02/2006 |
 
@@ -87,7 +87,7 @@ Tính trên 2 số cuối Đặc biệt qua toàn bộ lịch sử. **Lớn** = 
 | Đơn vị **chẵn ↔ lẻ** | — | **11** | 13/05/2007 → 23/05/2007 |
 | Hàng chục **chẵn ↔ lẻ** | — | **13** | 17/08/2007 → 29/08/2007 |
 | Tổng (đv+chục) **chẵn ↔ lẻ** | — | **12** | 16/10/2020 → 27/10/2020 |
-| Đơn vị **lớn ↔ bé** | 3 | **13** | 03/11/2022 → 15/11/2022 |
+| Đơn vị **lớn ↔ bé** | — | **13** | 03/11/2022 → 15/11/2022 |
 | Hàng chục **lớn ↔ bé** | — | **13** | 27/11/2022 → 09/12/2022 |
 
 ## 🗺 Heatmap 100 số (00–99) — toàn lịch sử
@@ -103,7 +103,7 @@ Hàng = chữ số hàng chục, cột = đơn vị. Số bên trái là đếm;
   4     58·   67░   74▒   81▒   71░   77▒   74▒   73░   85▒   76▒
   5     68░   68░   76▒   77▒   84▒   83▒   79▒   79▒   71░   82▒
   6     91▓   71░   82▒   74▒   82▒   97▓   88▓   76▒   85▒   64░
-  7    100█   83▒   63░   71░   66░   73░   78▒   80▒   77▒   74▒
+  7    100█   83▒   63░   71░   66░   73░   78▒   80▒   77▒   75▒
   8     74▒   80▒   89▓   76▒   71░   78▒   76▒   68░   81▒   79▒
   9     69░   89▓   78▒   74▒   78▒   70░   84▒   84▒   80▒   72░
 ```
@@ -123,11 +123,11 @@ Hàng = chữ số hàng chục, cột = đơn vị. Số bên trái là đếm;
 | 2023 | 361 | 97/100 | `57` (9 lần) |
 | 2024 | 362 | 96/100 | `09` (8 lần) |
 | 2025 | 361 | 99/100 | `92` (10 lần) |
-| 2026 | 183 | 83/100 | `48` (5 lần) |
+| 2026 | 184 | 84/100 | `48` (5 lần) |
 
 ---
 
-_Updated **2026-07-06 21:42 +07** — auto by [GitHub Action](.github/workflows/daily-update.yml)._  
-_Dataset: [`data/xsmb.csv`](data/xsmb.csv) · 7,757 kỳ · 2005-01-01 → 2026-07-06._  
+_Updated **2026-07-07 20:35 +07** — auto by [GitHub Action](.github/workflows/daily-update.yml)._  
+_Dataset: [`data/xsmb.csv`](data/xsmb.csv) · 7,758 kỳ · 2005-01-01 → 2026-07-07._  
 _Code, install, schema: see [`docs/USAGE.md`](docs/USAGE.md). License: [MIT](LICENSE)._  
 _Source data crawled from [Minh Ngọc](https://www.minhngoc.net.vn/ket-qua-xo-so/mien-bac.html)._
